@@ -1,0 +1,209 @@
+.navbar{
+	margin-bottom:0;
+
+}
+.navbar-brand{
+	font-size: 24px;
+    padding-left: 20px;
+}
+.logincube{
+	float:right;
+	margin-right: 40px;
+    margin-top: 10px;
+}
+.welcome{
+	padding-left: 30px;
+	font-size: 40px;
+}
+.painting{
+	padding-top: 0px;
+	background-image:url(http://image.hiapk.com/pic/2012/04/30/and_pbbz_06_0430.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+
+.description{
+	font-size: 20px;
+	font-style:oblique; 
+	padding-left: 40px;
+}
+
+#container {
+    background: rgba(255,255,255,0.5) none repeat scroll !important;
+    width: 720px;
+    height: 400px;
+    margin-left: 20px;
+    position: relative;
+    /* border: dotted gray; */
+}
+
+#container h1 {
+       font-family: Cantarell, Verdana, sans-serif;
+        text-align: center;
+        padding-top: 5px;
+        font-size: 20px;
+       /* text-shadow: 1px 1px 2px #222;*/
+    }
+
+
+#container .form { 
+	height:250px;
+	width: 680px;
+	/*border: dotted gray;*/
+}
+#container input  {
+color: #888;
+border: 1px solid #ccc;
+font-family: Cantarell, Verdana, sans-serif;
+font-weight: bold;
+font-size: 15px;
+width: 300px;
+height: 40px;
+margin-top: 18px;
+margin-left: 30px;
+margin-bottom: 18px;
+float: left;
+}
+
+input#register{
+  color:white;
+}
+
+#container input:focus {
+        border: 1px solid #a90329;
+        color: #a90329;
+}
+#container input.valid { border: 1px solid #1FFF00; }
+
+#container label {
+    color: #666;
+    font-size: 12px;
+    /*line-height: 14px;*/
+    float: right;
+    margin: 23px 23px;
+    width: 280px;
+}
+
+footer p{
+	text-align: center;
+	font-size: 20px;
+}
+.signup{
+    text-align: center;
+}
+#mb_container{
+  width:1240px;
+  margin-left:100px;
+  padding-top: 15px;
+  /*border:solid red;*/
+  /*float:left;*/
+}
+div#sidebar{
+  float: left;
+  width: 200px;
+  height:100%;
+  background: #f7f7f7;
+  padding-left: 0px;
+    /*border-right: dotted gray;*/
+}
+
+#searchbar{
+    float:left;
+    margin-right: 15px;
+}
+#userbar{
+  float: right;
+  margin-right: 100px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+#message_form{
+    width:700px;
+    float: left;
+    padding-left:60px; 
+    /*border:dotted gray;*/
+}
+
+.list-group{
+  width:700px;
+  float: left;
+  padding-left:60px; 
+}
+#profile_form{
+    float:left;
+    margin-left:20px;
+    width: 60%;
+   /* border:solid red;*/
+}
+#profile_form .thumbnail{
+   /*border: dotted gray;*/
+  width: 18%;
+  margin:auto;
+}
+.profiletext{
+  margin-left: 30px;
+}
+
+#searchresult{
+  float:left;
+  margin-left:20px;
+  width: 60%;
+}
+
+#searchresult .thumbnail{
+  width: 18%;
+  float:left;
+}
+
+#searchedinfo{
+  float:left;
+  margin-left: 20px;
+  width: 50%;
+  /*border:solid red;*/
+}
+
+#searchresult #searchedname{
+  font-family: cursive;
+  font-size: 20px;
+}
+
+button.btn.btn-success.dropdown-toggle {
+  height: 34px;
+}
+
+/*#post_form .photo{
+  float:left;
+  border :solid red;
+}*/
+#post_form .thumbnail{
+  width:8%;
+  height:8%;
+  float:left; 
+}
+
+#post_form .namebar{
+  font-weight: bolder;
+  width: 80%;
+  margin-top:5px;
+  margin-left:60px;
+}
+
+#post_form .posttext{
+  font-weight: bold;
+  width: 80%;
+  margin-top:5px;
+  margin-left:70px;
+}
+
+#post_form .posttime{
+  width: 80%;
+  margin-top:5px;
+  margin-left:60px;
+  font-size: 10px;
+}
+
+.friendlist{
+  float:right;
+  width: 190px;
+  height:100%;
+}
